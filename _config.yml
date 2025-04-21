@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: YH blog
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: 硬紅
+language: zh-TW
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://johnsonyhchen.github.io/blog/
-permalink: :year/:month/:day/:title/
+permalink: :name/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -92,6 +92,16 @@ pagination_dir: page
 include:
 exclude:
 ignore:
+
+symbols_count_time:
+  symbols: true # 在文章顯示總共有多少字
+  time: true  # 在文章顯示總共需多少時間
+  total_symbols: true # 在頁底顯示總共有多少字
+  total_time: true  # 在頁底顯示總共需多少時間
+  exclude_codeblock: true  # 是否排除程式碼字數
+  awl: 2 #平均文字長度，中文為 2, 英文為 5, 預設為 4
+  wpm: 275  # 可以閱讀多少字每分鐘
+  suffix: "mins." # 時間的後綴
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
