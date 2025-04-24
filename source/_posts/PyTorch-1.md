@@ -16,6 +16,8 @@ tags:
 
 ## 🚀 PyTorch 是什麼？
 
+<!-- more -->
+
 PyTorch 是一個 **開源深度學習框架**，由 Facebook AI Research 所開發，它提供：
 
 - 🧮 強大的 **Tensor 運算** 功能（就像 Numpy，但有 GPU 支援）
